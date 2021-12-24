@@ -6,7 +6,7 @@ const ShirtCard = ({ design }) => {
   return (
     <div className="grid grid-cols-12 gap-10">
       <ProductCard image={design.image} className={'col-span-12 md:col-span-7'} />
-      <div className={'flex items-center col-span-12 md:col-span-5 relative'}>
+      <div className={'flex items-center col-span-12 md:col-span-5 relative text-dark-100'}>
         <div className="relative translate-y-8">
           <div className={'bg-white relative z-20 rounded p-10 w-full shadow-lg shadow-black space-y-5'}>
             <h2 className={'text-4xl font-black'}>{design.title}</h2>
