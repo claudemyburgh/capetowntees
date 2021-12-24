@@ -9,16 +9,16 @@ const ShirtCard = ({ design }) => {
       <div className={'flex items-center col-span-12 md:col-span-5 relative text-dark-100'}>
         <div className="relative translate-y-8">
           <div className={'bg-white relative z-20 rounded p-10 w-full shadow-lg shadow-black space-y-5'}>
-            <h2 className={'text-4xl font-black'}>{design.title}</h2>
+            <h2 className={'text-4xl font-black tracking-tight'}>{design.title}</h2>
 
-            <div className={'space-x-2'}>
+            <div>
               {design.tags.map((tag, index) => (
-                <span key={index.toString()} className={'bg-gray-200 text-gray-500 rounded-lg px-2 py-1 text-sm'}>
+                <span key={index.toString()} className={'bg-gray-200 m-1 inline-block text-gray-400 rounded-lg px-2' + ' py-1 text-xs'}>
                   #{tag}
                 </span>
               ))}
             </div>
-            <p>{design.description}</p>
+            <article className={'line-clamp-3'} dangerouslySetInnerHTML={{ __html: design.description }} />
             <div className="flex items-center space-x-1">
               <CustomSelect />
               <button

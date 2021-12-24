@@ -1,34 +1,30 @@
 export default [
   {
     id: '0',
-    title: 'We rock American flag guitar',
+    title: 'Cable Cart Cape Town',
     image: '/img/CAPE-TOWN-CABLE.jpg',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, blanditiis commodi debitis delectus error fugiat iusto libero mollitia necessitatibus odio odit, quia quisquam ratione sed totam, velit voluptatem? Delectus, labore.',
-    tags: ['flag', 'america', 'strips', 'stars'],
+    description: "An image of the world famous cable cart that travels between Table Mountain and Lion's Head in" + ' Cape' + ' Town.',
+    tags: ['table-mountain', 'cape-town', 'cable-cart', 'lions-head'],
   },
   {
     id: '1',
-    title: 'We rock American flag guitar',
+    title: 'Banner Ad Plane Cape Town',
     image: '/img/airplane.jpg',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, blanditiis commodi debitis delectus error fugiat iusto libero mollitia necessitatibus odio odit, quia quisquam ratione sed totam, velit voluptatem? Delectus, labore.',
-    tags: ['flag', 'america', 'strips', 'stars'],
+    description: 'Banner Ad Plane is often seen of the Cape Town airspace. So we will ask the people in Cape Town Howzit!',
+    tags: ['cape-town', 'table-mountain', 'plane', 'red', 'banner', 'ad'],
   },
   {
     id: '2',
-    title: 'We rock American flag guitar',
+    title: "South-Africa We Rock's Flag",
     image: '/img/image-1.jpg',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, blanditiis commodi debitis delectus error fugiat iusto libero mollitia necessitatibus odio odit, quia quisquam ratione sed totam, velit voluptatem? Delectus, labore.',
-    tags: ['flag', 'america', 'strips', 'stars'],
+    description: "An image telling the world that we the South-Africa people rock's",
+    tags: ['flag', 'south-africa', 'guitar', 'rocks'],
   },
   {
     id: '3',
     title: 'We have nothing to fever but running out of beer',
     image: '/img/beer.jpg',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, blanditiis commodi debitis delectus error fugiat iusto libero mollitia necessitatibus odio odit, quia quisquam ratione sed totam, velit voluptatem? Delectus, labore.',
+    description: 'A joke out of the hit animated tv series <strong>Futurama</strong>. ',
     tags: ['flag', 'america', 'strips', 'stars'],
   },
   {
