@@ -5,12 +5,12 @@ import CustomSelect from './CustomSelect'
 const ShirtCard = ({ design }) => {
   return (
     <>
-      <div className="grid grid-cols-12 gap-10">
+      <div className="grid grid-cols-12 gap-y-2md: md:gap-10">
         <div className={'col-span-12 md:col-span-7'}>
           <ProductCard design={design} />
         </div>
         <div className={'flex items-center col-span-12 md:col-span-5 relative text-dark-100'}>
-          <div className="relative translate-y-8">
+          <div className="relative translate-y-2 md:translate-y-8">
             <div className={'bg-white relative z-20 rounded p-10 w-full shadow-lg shadow-black space-y-5'}>
               <h2 className={'text-4xl font-black tracking-tight'}>{design.title}</h2>
 
@@ -22,7 +22,7 @@ const ShirtCard = ({ design }) => {
                 ))}
               </div>
               <article className={'line-clamp-3'} dangerouslySetInnerHTML={{ __html: design.description }} />
-              <div className="flex items-center space-x-1">
+              <div className="flex items-center md:space-x-1">
                 <button
                   disabled
                   type={'button'}
@@ -42,8 +42,8 @@ const ShirtCard = ({ design }) => {
                 {/*</button>*/}
               </div>
             </div>
-            <div className={'bg-gray-200 absolute inset-0 z-10 rounded  shadow-lg shadow-black scale-95 -translate-y-8'} />
-            <div className={'bg-gray-300 absolute inset-0 z-0 rounded  shadow-lg shadow-black scale-90 -translate-y-16'} />
+            <div className={'bg-gray-200 absolute inset-0 z-10 rounded  shadow-lg shadow-black scale-95 md:-translate-y-8'} />
+            <div className={'bg-gray-300 absolute inset-0 z-0 rounded  shadow-lg shadow-black scale-90' + ' md:-translate-y-16'} />
           </div>
         </div>
       </div>
