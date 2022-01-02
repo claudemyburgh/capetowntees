@@ -17,7 +17,7 @@ export default [
   },
   {
     id: '2',
-    title: 'Coloured Beach Huts, Muizenberg,  Cape Town',
+    title: 'Colored Beach Huts, Muizenberg,  Cape Town',
     image: '/img/muizenberg-beach.jpg',
     blur: '/img/muizenberg-beach-blur.jpg',
     description: 'These colourful beach huts are a sight to be seen on the beach of Muizenberg in Cape Town, South Africa.',
@@ -34,7 +34,7 @@ export default [
   },
   {
     id: '4',
-    title: 'We have nothing to fever but running out of beer',
+    title: 'We have nothing to fear but running out of beer',
     image: '/img/beer.jpg',
     blur: '/img/beer-blur.jpg',
     description: 'A joke out of the hit animated tv series <strong>Futurama</strong>. ',

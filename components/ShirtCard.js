@@ -21,7 +21,7 @@ const ShirtCard = ({ design }) => {
                   </span>
                 ))}
               </div>
-              <article className={'line-clamp-32'} dangerouslySetInnerHTML={{ __html: design.description }} />
+              <article className={'line-clamp-4'} dangerouslySetInnerHTML={{ __html: design.description }} />
               <div className="flex items-center md:space-x-1">
                 <button
                   disabled
