@@ -4,9 +4,7 @@ import { CheckIcon, SelectorIcon } from '@heroicons/react/solid'
 
 const platform = [
   { id: 1, name: 'Redbubble', unavailable: false },
-  { id: 2, name: 'Teepublic', unavailable: false },
-  { id: 3, name: 'Teespring', unavailable: false },
-  { id: 4, name: 'Amazon', unavailable: true },
+  { id: 2, name: 'Amazon', unavailable: true },
 ]
 
 const CustomSelect = () => {
