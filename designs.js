@@ -17,7 +17,7 @@ export default [
   },
   {
     id: '2',
-    title: 'Muizenberg Colored Beach Huts,  Cape Town',
+    title: 'Coloured Beach Huts, Muizenberg,  Cape Town',
     image: '/img/muizenberg-beach.jpg',
     blur: '/img/muizenberg-beach-blur.jpg',
     description: 'These colourful beach huts are a sight to be seen on the beach of Muizenberg in Cape Town, South Africa.',
